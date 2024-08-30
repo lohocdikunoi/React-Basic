@@ -1,0 +1,12 @@
+.List-User-Container {
+  .Content {
+    margin-top: 20px;
+    .Child {
+      cursor: pointer;
+      width: 400px;
+      margin: 0 auto;
+      height: 40px;
+      border: 1px solid gray;
+    }
+  }
+}

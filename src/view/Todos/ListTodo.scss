@@ -1,0 +1,20 @@
+.Todo-Container {
+  width: 450px;
+  margin: 0 auto;
+  .add {
+    margin: 0 10px;
+  }
+  .List-Todo {
+    .Item-Todo:first-child {
+      border-top: 1px solid cyan;
+      margin-top: 10px;
+    }
+    .Item-Todo {
+      padding: 10px 0;
+      border-bottom: 1px solid cyan;
+      .edit {
+        margin: 0 10px;
+      }
+    }
+  }
+}
